@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    width:100%;
+    min-height: 300px;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 800px){
+    .all{
+        flex-direction: column;
+    }
+}
+
+.one{
+    width: 20%;
+    height:250px;
+    background-color: grey;
+}
+
+@media (max-width: 800px){
+    .one{
+        width: 90%;
+        margin-left:5%;
+    }
+}
+
+.two{
+    width: 20%;
+    height:250px;
+    background-color: brown;
+}
+
+.three{
+    width: 20%;
+    height:250px;
+    background-color: red;
+}
+
+.four{
+    width: 20%;
+    height:250px;
+    background-color: teal;
+}
